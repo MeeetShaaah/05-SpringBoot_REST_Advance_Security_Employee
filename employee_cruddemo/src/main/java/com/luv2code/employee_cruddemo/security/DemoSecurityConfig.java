@@ -14,7 +14,7 @@ import javax.sql.DataSource;
 @Configuration
 public class DemoSecurityConfig {
 
-    //add support for JDBC, in normal terms I am connecting mysql database to my application, before it was manual entry
+    //add support for JDBC, in normal terms I am connecting mysql database to my application, before it was manual entry, now, moving to mysql...!
     @Bean
     public UserDetailsManager userDetailsManager(DataSource dataSource){
         //return new JdbcUserDetailsManager(dataSource);
